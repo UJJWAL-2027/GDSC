@@ -1,0 +1,245 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: cursive;
+    line-height: 1.6;
+    background-color: #05096ec7;
+    color: #1d0b0b;
+}
+
+.countdown-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8ba89;
+    color: #1d0b0b;
+    font-size: 2rem;
+}
+
+#countdown-timer {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.cake-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8ba89;
+    transition: opacity 1s ease;
+}
+
+#cake-image {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+#cut-cake-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cut-cake-btn:hover {
+    background-color: #ff4444;
+}
+
+#birthdaywishes {
+    color: chartreuse;
+}
+
+
+#party {
+    margin: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.game {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.theatre {
+    margin-left: 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#head1 {
+    text-align: center;
+    color: yellow;
+}
+
+#head2 {
+    text-align: center;
+    color: yellow;
+}
+
+#gamepara {
+    text-align: center;
+    color: chartreuse;
+}
+
+.anchor1 {
+    color: orange;
+}
+
+#theatrepara {
+    text-align: center;
+    color: chartreuse;
+}
+
+.anchor2 {
+    color: orange;
+}
+
+.hidden {
+    display: none;
+}
+
+#paraforparty {
+    color: #ff4444;
+}
+
+header {
+    background: yellow;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+.surprise-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#surprise-btn {
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#surprise-btn:hover {
+    background-color: #ff4444;
+}
+
+#surprise-content {
+    margin-top: 20px;
+}
+
+
+.contact {
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+.contact a {
+    color: #ff6666;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+
+.feedback {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#feedback {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#submit-feedback {
+    background-color: #66ff6e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#submit-feedback:hover {
+    background-color: #ff4444;
+}
